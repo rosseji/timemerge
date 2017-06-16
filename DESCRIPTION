@@ -1,6 +1,6 @@
 Package: timemerge
 Title: binning function for time series
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: person("Ross", "Ireland", email = "rosseireland@gmail.com", role = c("aut", "cre"))
 Description: binning function for time series
 License: What license is it under?
