@@ -4,21 +4,23 @@
 \alias{binner}
 \title{Binning function for Time Series}
 \usage{
-binner(df, date_var, fact_var, val_var, interval = "day", sum_nm = "Total",
-  count_nm = "Count")
+binner(df, date_var, cat_var, val_var, interval = "day", sum_nm = "Total",
+  count_nm = "Count", method = "sum")
 }
 \arguments{
 \item{df}{Input df}
 
 \item{date_var}{Unquoted name of your date variable (POSIX)}
 
-\item{fact_var}{Unquoted name of your factor variable}
-
 \item{val_var}{Unquoted name of your value variable}
 
 \item{sum_nm}{Char string of summing variable name, defauls to "Total"}
 
 \item{count_nm}{Char string of count variable name, defauls to "Count"}
+
+\item{method}{Defaults to "sum", or use "avg"/"mean"}
+
+\item{fact_var}{Unquoted name of your factor variable}
 }
 \description{
 Get it a crack
