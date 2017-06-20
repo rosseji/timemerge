@@ -1,7 +1,9 @@
 # timemerge
 binning function for time series
 
-Install useing:
+CAUTION! REQURIES `DPLYR 0.7.0`
+
+Install using:
 ```
 devtools::install_github("rosseji/timemerge")
 ```
