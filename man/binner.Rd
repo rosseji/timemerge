@@ -19,8 +19,6 @@ binner(df, date_var, cat_var, val_var, interval = "day", sum_nm = "Total",
 \item{count_nm}{Char string of count variable name, defauls to "Count"}
 
 \item{method}{Defaults to "sum", or use "avg"/"mean"}
-
-\item{fact_var}{Unquoted name of your factor variable}
 }
 \description{
 Get it a crack
