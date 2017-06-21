@@ -40,7 +40,7 @@ binner <- function(df,
       mutate(bin_id = floor_date(!!date_var, interval)) %>%
       group_by(bin_id) %>%
       group_by(!!cat_var_, add = TRUE) %>%
-      summarise(!!sum_nm := mean(as.numeric(!!val_var)),
+      summarise(!!sum_nm := mean(as.numeric(!!val_var), na.rm = T),
                 !!count_nm := n())
   }
   df
